@@ -44,5 +44,4 @@ class TweetsController < ApplicationController
     def set_tweet
         @tweet = Current.user.tweets.find(params[:id])
     end
-
 end
